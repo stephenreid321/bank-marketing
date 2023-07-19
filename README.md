@@ -1,6 +1,7 @@
 # Optimizing Direct Marketing Strategies: Insights from Machine Learning Analysis on Term Deposit Subscriptions
 
 ## Introduction
+
 In order to optimize our direct marketing efforts, we applied machine learning models to our customer data to understand the key factors influencing a client's decision to subscribe to a term deposit. We used Decision Tree, KNN and Logistic Regression models, well-known models for classification problems. This report presents the findings from these models, including the most influential factors, and provides recommendations on how we can improve our marketing efforts based on these insights.
 
 ## Key Findings
