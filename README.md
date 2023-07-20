@@ -8,7 +8,7 @@ In order to optimize our direct marketing efforts, we applied machine learning m
 
 Model Performance: The Logistic Regression and KNN model showed good generalizability, with an accuracy of approximately 90% on both the training and test datasets. The Decision Tree model, when limited to a maximum depth of 6, also showed good performance with a similar accuracy of approximately 90%.
 
-Influential Factors: Consider the Logistic Regression and Decision Tree models, we found that the most influential factors include the number of employees (nr.employed), the outcome of the previous marketing campaign (poutcome_success), and the month of last contact being March (month_mar). These factors were most positively associated with a client's decision to subscribe to a term deposit.
+Influential Factors: Considering the Logistic Regression and Decision Tree models, we found that the most influential factors include the number of employees (nr.employed), the outcome of the previous marketing campaign (poutcome_success), and the month of last contact being March (month_mar). These factors were most positively associated with a client's decision to subscribe to a term deposit.
 
 Negative Factors: The Logistic Regression model also revealed factors that decreased the likelihood of a client subscribing to a term deposit. These include the employment variation rate (emp.var.rate), contact method being telephone (contact_telephone), and the month of last contact being June, November, or May (month_jun, month_nov, month_may).
 
