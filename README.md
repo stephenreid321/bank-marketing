@@ -1,12 +1,12 @@
 # Optimizing Direct Marketing Strategies: Insights from Machine Learning Analysis on Term Deposit Subscriptions
 
-## Introduction
+## Introduction
 
 In order to optimize our direct marketing efforts, we applied machine learning models to our customer data to understand the key factors influencing a client's decision to subscribe to a term deposit. We used Decision Tree, KNN and Logistic Regression models, well-known models for classification problems. This report presents the findings from these models, including the most influential factors, and provides recommendations on how we can improve our marketing efforts based on these insights.
 
-## Key Findings
+## Key Findings
 
-### Model metrics
+### Model metrics
 
 Accuracy is the ratio of the total number of correct predictions to the total number of predictions made. All the models (including the Decision Tree model when limited to a maximum depth of 6) had a similar accuracy of approximately 90%, just above the baseline of 88%.
 
@@ -26,7 +26,7 @@ Influential Factors: Considering the Logistic Regression and Decision Tree model
 
 Negative Factors: The Logistic Regression model also revealed factors that decreased the likelihood of a client subscribing to a term deposit. These include the employment variation rate (emp.var.rate), contact method being telephone (contact_telephone), and the month of last contact being June, November, or May (month_jun, month_nov, month_may).
 
-##  Recommendations
+## Recommendations
 
 Based on our findings, we recommend the following actions to improve our direct marketing campaigns:
 
@@ -36,7 +36,7 @@ Re-evaluate Contact Method and Timing: Our findings suggest that contacting clie
 
 Consider Economic Indicators: Keep an eye on economic indicators like the number of employees and the Euribor 3 month rate, as these were found to be influential in a client's decision to subscribe to a term deposit.
 
-## Conclusion
+## Conclusion
 
 Our analysis provides insight into the factors that influence a client's decision to subscribe to a term deposit. By focusing on the most influential factors and re-evaluating our approach for the negative factors, we can optimize our direct marketing efforts and improve the effectiveness of our campaigns.
 
