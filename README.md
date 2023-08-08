@@ -18,7 +18,7 @@ Recall, also known as sensitivity or true positive rate, is the ratio of true po
 
 The F1 score is the harmonic mean of precision and recall, providing a single metric that balances the two. Considering F1, the Logistic Regression model was 33% on both training and test datasets, the KNN model on the training dataset was 50%, falling to 36% on the test dataset, and the tuned Decision Tree model was around 35% on both training and test datasets.
 
-In a direct marketing context, where both reaching potential subscribers and efficiency in resources are important, the F1 score might often be the most relevant metric. It ensures that the marketing campaign is neither too conservative (missing potential subscribers) nor too aggressive (wasting resources on unlikely subscribers). On this basis, all the models were approximately equally performant.
+In a direct marketing context, where both reaching potential subscribers and efficiency in resources are important, the F1 score might often be the most relevant metric. It ensures that the marketing campaign is neither too conservative (missing potential subscribers) nor too aggressive (wasting resources on unlikely subscribers). On this basis, all the models were approximately equally performant. The Logistic Regression and Decision Tree models have the added advantage of being easily interpretable.
 
 ### Important factors
 
